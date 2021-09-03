@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>Main Page</title>
+<link rel="stylesheet" href="{% static 'takingdata/css/style.css' %}">
+</head>
+<body bgcolor="#D6E1F0">
+<section class="section-1">
+<div class="text">
+<h1>Enter text here</h1>
+<form action="#" method="POST"> 
+    {% csrf_token %}
+    <textarea id='output' name="message" rows="5" cols="20" required> </textarea>
+    <button type="button" onclick="javascript:eraseText()">Clear</button>
+    </div>
+    <script src="{% static 'takingdata/js/script.js' %}"></script></section></section>
+    <section class="section-2">
+    <div class="or">
+    <bold><h2>OR</h2></bold>
+    </div></section>
+    <section class="section-3">
+    <div class="voice">
+    <h2>Tap to speak</h2>
+    </div>
+    <div class="say">
+    <img src="{% static 'takingdata/images/PinClipartcom_microphone-clip-.png' %}" height="80" width="50">
+    </div></section>
+    <section class="section-4">
+    <input type="submit" value="Submit" class="btn btn-primary">
+</form>
+</body>
+</html>

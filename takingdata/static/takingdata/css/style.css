@@ -1,0 +1,40 @@
+.text {
+    position: fixed;
+    top: 200px;
+    right: 800px;
+    }
+    
+    .or {
+    position: fixed;
+    top: 200px;
+    right: 700px;
+    }
+    
+    .voice {
+    position: fixed;
+    top: 200px;
+    right: 500px;
+    }
+    
+    .say {
+    position: fixed;
+    top: 260px;
+    right: 540px;
+    }
+    
+    .btn {
+    position:fixed;
+    top: 370px;
+    right: 670px;
+    border: 1px solid #000000;
+    background: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+    color: #000000;
+    transition: 0.8s:
+    }
+    
+    .btn:hover {
+    color: 00008B;
+    }

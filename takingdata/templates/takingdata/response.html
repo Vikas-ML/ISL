@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Response</title>
+</head>
+<style> 
+    body { text-align: center;
+        background-color:#a0e7e4b9; } 
+</style> 
+ 
+<body>
+    <h1>Response</h1>
+    <h1>You entered : {{ message }}</h1>
+    <video width="620" height="520" controls autoplay>
+        <source src="{% static variable %}" type="video/mp4" >
+        Your browser does not support the video tag.
+    </video>
+</body>
+</html>
